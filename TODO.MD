@@ -12,7 +12,7 @@ TO DO LIST
 
 Pour info les audio
 
-0 - Variable
+0 - Variable -> DONE
     - Créer des variables global pour les chemins
         AUDIO_PATH
           AUDIO_MOTIVATION_PATH
@@ -24,7 +24,7 @@ Pour info les audio
         FINAL
 
 
-1 - Gérer le convertion au format Rééls
+1 - Gérer le convertion au format Rééls -> DONE (Pas Tester)
 
     a - Créer une function qui transforme une vidéo au format Rééls ( 1080px x 1920px with a 9:16 aspect ratio )
 
@@ -36,7 +36,7 @@ Pour info les audio
         il peut y avoir des problèmes du au format initial de la vidéo ( ex : de bande noir apparaisse )
         la vidéo de sorti doit être sans bande et en plein écran peut importe le type
 
-2 - Transition
+2 - Transition -> DONE (Pas tester)
 
     - Modifier la function create_composite_clip pour y ajouter une transition fade entre chaque video:
       Fin du subclib = Fade OUT
